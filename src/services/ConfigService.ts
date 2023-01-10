@@ -10,9 +10,9 @@ export class ConfigService implements IConfigService {
         try {
             const tokenResponse = await client.send(
                 new StartConfigurationSessionCommand({
-                    ApplicationIdentifier: "v8t9h6l ",
-                    ConfigurationProfileIdentifier: "vi24o0h ",
-                    EnvironmentIdentifier: "tv7tlr2 "
+                    ApplicationIdentifier: "v8t9h6l",
+                    ConfigurationProfileIdentifier: "vi24o0h",
+                    EnvironmentIdentifier: "tv7tlr2"
                 })
             )
             
